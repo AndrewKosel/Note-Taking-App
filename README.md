@@ -18,7 +18,7 @@ An application that can be used to write, save, and delete notes. This applicati
 ## Installation
 
 No need to install you can run this applicaiton through Heroku at the link below.
-https://quiet-peak-42251.herokuapp.com/.
+https://quiet-peak-42251.herokuapp.com/
 
 ## Usage
 
@@ -26,7 +26,7 @@ To enter a Title, click on the Title, and enter in text. To enter in a body, do 
 
 ## Built_with
 
-* [JavaScript] (https://www.w3schools.com/js/DEFAULT.asp)
+* [JavaScript]
 * [NodeJS](https://nodejs.org/en/)
 * [Inquirer](https://www.npmjs.com/package/inquirer)
 * [Heroku](https://dashboard.heroku.com/apps)
@@ -41,7 +41,7 @@ Andrew Kosel
 
 ## Video
 
-[![Watch the video](https://user-images.githubusercontent.com/70727213/95952437-eefc9a00-0dac-11eb-842d-5245673dc3ad.png)](https://www.youtube.com/watch?v=FpMBdWEs0Hw&feature=youtu.be)
+[![Watch the video](![image](https://user-images.githubusercontent.com/70727213/96312481-9271c880-0fc0-11eb-8fa1-5161d217032d.png))](https://www.youtube.com/watch?v=XHAZ5gl9l1o&feature=youtu.be)
 
 ## License
 
