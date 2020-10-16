@@ -41,7 +41,7 @@ Andrew Kosel
 
 ## Video
 
-[![Watch the video](![image](https://user-images.githubusercontent.com/70727213/96312481-9271c880-0fc0-11eb-8fa1-5161d217032d.png))](https://www.youtube.com/watch?v=XHAZ5gl9l1o&feature=youtu.be)
+[![Watch the video](https://user-images.githubusercontent.com/70727213/96312481-9271c880-0fc0-11eb-8fa1-5161d217032d.png)](https://www.youtube.com/watch?v=XHAZ5gl9l1o&feature=youtu.be)
 
 ## License
 
