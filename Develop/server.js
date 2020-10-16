@@ -38,9 +38,15 @@ app.get("/api/notes", function(req, res) {
 
 // Create the app.Post function for the note taker
 app.post("/api/notes", function(req, res) {
-  var newNote = req.body;
-  var notesId = uuidv4();
-  newNote.id = notesId
+  //var newNote = req.body;
+  //var notesId = uuidv4();
+  //newNote.id = notesId;
+  var newNote = {
+    text: req.body.text,
+    title: req.body.title, 
+    id:  uuidv4()
+   }
+    
   jsonNoteData.push(newNote);
 
 fs.writeFile("./db/db.json", JSON.stringify(jsonNoteData), function(err){
@@ -53,6 +59,9 @@ fs.writeFile("./db/db.json", JSON.stringify(jsonNoteData), function(err){
 // Create the app.delete to get rid of notes
 app.delete("/api/notes/:id", function(req,res) {
   var jsonId = req.params.id
+  //Trying second method 
+  //var idArr = jsonNoteData.filter(id=>id.id !== jsonId) 
+  //console.log(idArr, "filtered")
   
   for (var i = 0; i < jsonNoteData.length; i++) {
       if (jsonNoteData[i].id === jsonId) {
@@ -63,6 +72,11 @@ app.delete("/api/notes/:id", function(req,res) {
       if (err) throw err;
       res.json("Success")
   })
+  // Second way of deleting
+//   fs.writeFile("./db/db.json", JSON.stringify(idArr), function(err) {
+//     if (err) throw err;
+//     res.json("Success")
+// })
 });
 
 // Starts the server to begin listening
